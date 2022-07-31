@@ -11,9 +11,9 @@ import { addUser } from '../../Redux/api';
 function Contact() {
   const[name,setName] = useState("");
   const[email,setEmail] = useState("");
-  const[password,setPassword] = useState("");
+  const[subject,setSubject] = useState("");
   const [message,setMessage] = useState("");
-  const[passwordShown,setPasswordShown] = useState(false);
+  // const[passwordShown,setPasswordShown] = useState(false);
 
   const dispatch = useDispatch();
   const {loading,error} = useSelector(state => state.web)
@@ -21,16 +21,16 @@ function Contact() {
    
   const handleSubmit = (e) =>{
     e.preventDefault();
-    addUser({name,email,password,message}, dispatch)
+    addUser({name,email,subject,message}, dispatch)
     setName("");
     setEmail("");
-    setPassword("");
+    setSubject("");
     setMessage("")
     }
 
-  const togglePassword = () =>{
-    setPasswordShown(!passwordShown);
-  }
+  // const togglePassword = () =>{
+  //   setPasswordShown(!passwordShown);
+  // }
 
 
   return (
@@ -53,11 +53,12 @@ function Contact() {
 
           </FormInput>
           <InputExp 
-          type={passwordShown ? "text" : "password"}
-          value = {password}
-            placeholder="Your Password"
-            onChange={(e) => setPassword(e.target.value)}/> 
-            <InputCheck type="checkbox" onClick={togglePassword}/>
+          // type={passwordShown ? "text" : "password"}
+          type = "text"
+          value = {subject}
+            placeholder="Your Subject"
+            onChange={(e) => setSubject(e.target.value)}/> 
+            {/* <InputCheck type="checkbox" onClick={togglePassword}/> */}
 
           <Textarea
            cols="30"

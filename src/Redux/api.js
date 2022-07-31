@@ -5,7 +5,7 @@ import axios from "axios"
 export const addUser = async (web , dispatch) =>{
      dispatch(startUser())
      try{
-      const res = await axios.post("http://localhost:4000/api/users",web);
+      const res = await axios.post("http://localhost:4000/api/notes",web);
        console.log(res.data);
       dispatch(successUser(res.data))
 

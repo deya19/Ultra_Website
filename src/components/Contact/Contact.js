@@ -54,7 +54,7 @@ width: 49%;
 `
 
 export const InputExp = styled(Input)`
-width: 98%;
+width: 100%;
 `
 export const InputCheck = styled(Input)`
 margin-left : 5px;

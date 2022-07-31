@@ -6,7 +6,7 @@ const Line = express();
 Line.use(cors());
 Line.use(express.json());
 
-Line.post("/api/users",(req , res)=>{
+Line.post("/api/notes",(req , res)=>{
     setTimeout(()=>{
         res.send(req.body)
     },1500)
