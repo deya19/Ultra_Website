@@ -1,0 +1,128 @@
+{
+    "works" : [
+        {
+            "id" : 1,
+            "icon_name": "icon fa-solid fab fa-link fa-2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 2,
+            "icon_name": "icon fa-solid fab fa-bolt fa-2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 3,
+            "icon_name": "icon fa-solid fab fa-tachometer fa-2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        }
+    ],
+
+    "portfolio" : [
+        {
+            "id":1,
+            "image": "/images/Portfolio/portfolio-img1.jpg"
+        },
+        {
+            "id":2,
+            "image": "/images/Portfolio/portfolio-img2.jpg"
+        },
+        {
+            "id":3,
+            "image": "/images/Portfolio/portfolio-img3.jpg"
+        },
+        {
+            "id":4,
+            "image": "/images/Portfolio/portfolio-img4.jpg"
+        },
+        {
+            "id":5,
+            "image": "/images/Portfolio/portfolio-img5.jpg"
+        },
+        {
+            "id":6,
+            "image": "/images/Portfolio/portfolio-img6.jpg"
+        },
+        {
+            "id":7,
+            "image": "/images/Portfolio/portfolio-img4.jpg"
+        },
+        {
+            "id":8,
+            "image": "/images/Portfolio/portfolio-img8.jpg"
+        }
+    ] ,
+    "social" : [
+        {
+            "id": 1,
+            "icon" : " icon fa-brands fa-facebook-f fa-lg",
+            "title" : "Follow Me on",
+            "body" : "Social Facebook"
+        },
+        {
+            "id": 2,
+            "icon" : " icon fa-brands fa-twitter fa-lg",
+            "title" : "Tweet Me on",
+            "body" : "Social twitter"
+        },
+        {
+            "id": 3,
+            "icon" :" icon fa-brands fa-pinterest-p fa-lg",
+            "title" : "Pin Me on",
+            "body" : "Social Pinterest"
+        }
+    ] ,
+    "skills" :[
+        {
+            "id" :1,
+            "name":"Bootstap",
+            "persantage" : "100%"
+        },
+        {
+            "id" :2,
+            "name":"React JS",
+            "persantage" : "90%"
+        },
+        {
+            "id" :3,
+            "name":"Redux JS",
+            "persantage" : "80%"
+        }
+
+    ],
+
+    "profile": [
+        {
+            "id":1,
+            "type":"Name",
+            "write" : "Deya'a Saleh"
+        },
+        {
+            "id":2,
+            "type":"Birthday",
+            "write" : " July 13 1999"
+        },
+        {
+            "id":3,
+            "type":"Address",
+            "write" : " Amman.Jordan"
+        },
+        {
+            "id":4,
+            "type":"Phone",
+            "write" : " +962798791513"
+        },
+        {
+            "id":5,
+            "type":"Email",
+            "write" : " Deyasaleh1@gmail.com"
+        },
+        {
+            "id":6,
+            "type":"Website",
+            "write" : " wwww.google.com"
+        }
+    ]
+}
