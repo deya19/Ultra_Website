@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from 'react'
 import Footer from './../Footer';
-import {ContactSection,ContactTitle,ContactTitleSpan,Form,FormInput,InputText,InputEmail,InputExp,Textarea, InputSubmit, InputCheck} from './Contact.js' 
+import {ContactSection,ContactTitle,ContactTitleSpan,Form,FormInput,InputText,InputEmail,InputExp,Textarea, InputSubmit, InputCheck,SpanError,SpanLoading} from './Contact.js' 
 import { useDispatch, useSelector } from 'react-redux';
 import { addUser } from '../../Redux/api';
 
@@ -67,8 +67,9 @@ function Contact() {
              placeholder="Your Mesaage"
              onChange={(e) => setMessage(e.target.value)}></Textarea>
 
-             {loading ? "Loading..." : <InputSubmit type="submit" value="Send Message"/>}     
-             {error && loading == false && "Error !!"}
+             {loading ? <SpanLoading>Loading...</SpanLoading> : <InputSubmit type="submit" value="Send Message"/>}   
+             <br/>
+             {error && loading == false && <SpanError>Error !!</SpanError>}
             
 
       </Form>

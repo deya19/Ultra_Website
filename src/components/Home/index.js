@@ -1,9 +1,9 @@
 import React from 'react'
 import { HomeBtn, HomeDesc, HomeInformation, HomeSection, HomeTitle, HomeTnfo, Span } from "./Home.js"
 
-function Home() {
+function Home({homeRef}) {
   return (
-    <HomeSection>
+    <HomeSection ref={homeRef}>
    <div className="container">
    <HomeInformation>
 

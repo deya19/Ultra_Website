@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
 export const ContactSection = styled.div`
-padding: 50px;
+padding: 67px;
+hight:auto;
 text-align: center;
+background: url(images/Home/home-bg.jpg); 
+background-size: cover;
+background-position: center;
+color:#fff;
 `
 
 export const ContactTitle = styled.h2`
@@ -27,6 +32,8 @@ export const Input = styled.input`
 margin-bottom: 10px;
 padding: 5px;
 outline: none;
+border-radius:15px;
+box-shadow:1px 1px 3px;
 `
 
 
@@ -63,14 +70,33 @@ margin-left : 5px;
 
 export const Textarea = styled.textarea`
 width: 100%;
-background-color: #ccc;
+background-color: #fff;
 outline: none;
+border-radius:15px;
+box-shadow:1px 1px 3px;
+padding:10px
 `
 
 export const InputSubmit = styled(Input)`
 width: 60%;
-background-color: transparent;
+background-color: #000;
 border: 1px solid #ccc;
-color: #888;
+color: #fff;
 cursor: pointer;
+border-radius:15px;
+box-shadow:1px 1px 5px;
+
+&:hover {
+    background-color:#fff ;
+    color:#000;
+}
+`
+export const SpanLoading = styled.span`
+color:#000;
+text-weight:bold;
+`
+
+export const SpanError = styled.span`
+color:#FF0000;
+text-weight:bold;
 `

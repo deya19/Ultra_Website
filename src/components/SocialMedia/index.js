@@ -10,21 +10,28 @@ class SocialMedia extends Component {
 
   state = {
     elements : []
-  }
+  };
 
   componentDidMount(){
     axios.get("js/data.json").then(res => {this.setState({elements : res.data.social})})
-  }
+  };
 
+  
   
 
   render(){
-    const {elements} = this.state;
 
+    const {elements} = this.state;
+  
+
+  
     const socialList = elements.map(elementItem => {
+      const viewData = () => {
+        window.open(elementItem.link, "_blank");
+    };
       return(
-        <Social key={elementItem.id} element ={elementItem.id} >
-        <SocialIcon  className={elementItem.icon}></SocialIcon>
+        <Social key={elementItem.id} element ={elementItem.id}>
+        <SocialIcon  className={elementItem.icon} onClick={viewData} ></SocialIcon>
         <SocialPara>
             <SocialParaSpan >{elementItem.title}</SocialParaSpan>
             <SocialParaSpan info2>{elementItem.body}</SocialParaSpan>
@@ -33,8 +40,10 @@ class SocialMedia extends Component {
       )
      })
 
+   
+
   return (
-    <SocialMediaSection>
+    <SocialMediaSection ref={this.props.socialMediaRef}>
 
     {socialList}
 

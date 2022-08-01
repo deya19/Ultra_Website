@@ -10,21 +10,21 @@ import Work from './../Work';
 
 
 
- class Index extends Component {
-  render() {
+ function Index({homeRef ,workRef , portfolioRef , resumeRef , aboutRef , socialMediaRef}) {
+  
     return (
       <div>
-        <Home/>
-        <Work/>
-        <Porfolio/>
-        <Profile/>
-        <About/>
-        <SocialMedia/>
+        <Home homeRef={homeRef}/>
+        <Work workRef = {workRef}/>
+        <Porfolio portfolioRef={portfolioRef}/>
+        <Profile resumeRef = {resumeRef}/>
+        <About aboutRef = {aboutRef}/>
+        <SocialMedia socialMediaRef = {socialMediaRef}/>
         <Footer/>
       </div>
     )
   }
-}
+
 
 
 export default Index;

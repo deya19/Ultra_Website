@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import {PortfolioSection ,PortfolioTitle ,PortfolioSpan ,PortfolioUl ,PortfolioItem ,ImageWrapper ,Image ,Overlay ,OverlaySpan } from "./Portfolio.js"
 import axios from 'axios'
 
-function Porfolio() {
+function Porfolio({portfolioRef}) {
 
   const [images ,setImages] = useState([]);
 
@@ -15,16 +15,14 @@ function Porfolio() {
       <ImageWrapper key={imageItem.id}>
         <Image src={imageItem.image} alt=""/>
         <Overlay>
-           <OverlaySpan>
-           show Image
-           </OverlaySpan>
+        {imageItem.para}
         </Overlay>
      </ImageWrapper>
     )
   })
 
   return (
-    <PortfolioSection>
+    <PortfolioSection ref={portfolioRef}>
     <PortfolioTitle><PortfolioSpan>My</PortfolioSpan> Portfolio</PortfolioTitle>
     <PortfolioUl>
         <PortfolioItem active >All</PortfolioItem>

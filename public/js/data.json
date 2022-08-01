@@ -23,35 +23,43 @@
     "portfolio" : [
         {
             "id":1,
-            "image": "/images/Portfolio/portfolio-img1.jpg"
+            "image": "/images/Portfolio/portfolio-img1.jpg",
+            "para":"Our Annual Plan 2019 is based on what was achieved during 2018 and previous years. In this way, four focus areas stand out, which represent what we do. We also included the elements that distinguish the way we work: with a collaborative approach, a strong narrative and creating community."
         },
         {
             "id":2,
-            "image": "/images/Portfolio/portfolio-img2.jpg"
+            "image": "/images/Portfolio/portfolio-img2.jpg",
+            "para":"Our Chapters in Latin America and the Caribbean form a vibrant and diverse community that is constantly active."
         },
         {
             "id":3,
-            "image": "/images/Portfolio/portfolio-img3.jpg"
+            "image": "/images/Portfolio/portfolio-img3.jpg",
+            "para":"On January 25, the Trinidad and Tobago Chapter was part of the Internet Governance Forum in that country. Shernon Osepa, Regional Affairs Manager, participated on behalf of the Regional Bureau for Latin America and the Caribbean."
         },
         {
             "id":4,
-            "image": "/images/Portfolio/portfolio-img4.jpg"
+            "image": "/images/Portfolio/portfolio-img4.jpg",
+            "para":"On February 5, the Argentina, Haiti, Honduras, Mexico and Dominican Republic Chapters carried out various activities to celebrate the Safer Internet Day."
         },
         {
             "id":5,
-            "image": "/images/Portfolio/portfolio-img5.jpg"
+            "image": "/images/Portfolio/portfolio-img5.jpg",
+            "para":"In addition to these activities, the Colombia, Mexico, Panama, Puerto Rico and Trinidad and Tobago Chapters have undertaken various efforts in their communities. Activities range from capacity building to advice to regulatory bodies with great success."
         },
         {
             "id":6,
-            "image": "/images/Portfolio/portfolio-img6.jpg"
+            "image": "/images/Portfolio/portfolio-img6.jpg",
+            "para":"Another year has passed, and technology and digital remain on the ascent, as companies focus on each as sources of new revenue streams and resilience. The innovations were represented well in a variety of pieces throughout the year. Though it is impossible to fully represent the breadth of that writing, here are ten notworthy pieces that provide greater context to advances made and issues faced in 2021."
         },
         {
             "id":7,
-            "image": "/images/Portfolio/portfolio-img4.jpg"
+            "image": "/images/Portfolio/portfolio-img7.jpg",
+            "para":"Sarah Wang and Martin Casado of the venture capital firm, Andreessen Horowitz, argue that while cloud delivers significant value early in a firm’s growth, the costs it puts on the business may eventually outweigh the benefits. While primarily focused on startups, this article has been a useful thought starter for enterprise technology leaders as they continue to explore the long-term business implications of the cloud. "
         },
         {
             "id":8,
-            "image": "/images/Portfolio/portfolio-img8.jpg"
+            "image": "/images/Portfolio/portfolio-img8.jpg",
+            "para":"The notion of ‘the singularity’ has been tantalizing the tech community for decades, heralding a future with infinitely powerful artificial intelligence capable of independently improving itself. Even with the phenomenal computing advancements of the 21st century, it seems we are nowhere closer to actualizing this intelligence explosion. Is it truly possible for a computer program to surpass the intelligence of its human creators? Chiang offers an interesting counter-point to those who say yes."
         }
     ] ,
     "social" : [
@@ -59,19 +67,22 @@
             "id": 1,
             "icon" : " icon fa-brands fa-facebook-f fa-lg",
             "title" : "Follow Me on",
-            "body" : "Social Facebook"
+            "body" : "Social Facebook",
+            "link":"https://web.facebook.com/?_rdc=1&_rdr"
         },
         {
             "id": 2,
             "icon" : " icon fa-brands fa-twitter fa-lg",
             "title" : "Tweet Me on",
-            "body" : "Social twitter"
+            "body" : "Social twitter",
+            "link":"https://twitter.com/home"
         },
         {
             "id": 3,
-            "icon" :" icon fa-brands fa-pinterest-p fa-lg",
-            "title" : "Pin Me on",
-            "body" : "Social Pinterest"
+            "icon" :"icon fa-brands fa-linkedin-in fa-lg",
+            "title" : "Link Me on",
+            "body" : "Social LinkedIn",
+            "link":"https://www.linkedin.com/feed/"
         }
     ] ,
     "skills" :[

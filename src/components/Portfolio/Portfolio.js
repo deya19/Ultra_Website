@@ -64,21 +64,12 @@ top:0;
 left: 0;
 bottom:0;
 right: 0;
-background-color: rgba(235,84,36,0.5);
+background-color: rgba(0,0,0,0.7);
 font-size: 15px;
 opacity: 0;
+color:#fff;
 `
 
-export const OverlaySpan = styled.span`
-position: absolute;
-top:50%;
-left:50%;
-transform: translate(-50%,-50%);
-background-color: #fff;
-display: block;
-padding: 10px 20px;
-cursor: pointer;
-border: 2px solid #eb5424;
-`
+
 
 

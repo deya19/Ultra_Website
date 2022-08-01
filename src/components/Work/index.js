@@ -33,7 +33,7 @@ componentDidMount(){
 
 
   return (
-    <WorkSection>
+    <WorkSection ref={this.props.workRef}>
    <div className="container">
     <WorkTitle><WorkSpan>My</WorkSpan> Work</WorkTitle>
     {worksList}

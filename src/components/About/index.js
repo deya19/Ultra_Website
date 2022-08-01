@@ -3,9 +3,9 @@ import React from 'react'
 import {AboutSection , AboutInfo,InfoTitle,InfoTitleSpan,InfoDir,InfoDirSpan,InfoDesc,ALink} from './About.js'
 
 
-function About() {
+function About({aboutRef}) {
   return (
-    <AboutSection>
+    <AboutSection ref={aboutRef}>
     <div className="container">
         <AboutInfo>
             <InfoTitle><InfoTitleSpan>This is</InfoTitleSpan> Me</InfoTitle>

@@ -19,7 +19,7 @@ border-bottom: 1px solid #222;
 `
 
 export const Logo = styled.div`
-width: 50%;
+width: 40%;
 float: left;
 
 
@@ -37,7 +37,7 @@ font-size: 30px;
 `
 
 export const UlList = styled.ul`
-    width:50%;
+    width:60%;
     float: right;
     list-style: none;
     padding: 0;
@@ -71,6 +71,7 @@ color: #222;
 text-decoration: none;
 padding: 10px 15px;
 font-weight: bold;
+cursor:pointer;
 transition: 0.1s;
 
 &:hover {

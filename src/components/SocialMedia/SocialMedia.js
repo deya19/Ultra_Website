@@ -12,7 +12,7 @@ padding: 100px 0 100px 60px;
 
 background-color: ${props => props.element === 1 && "#3b5998"};
 background-color: ${props => props.element  === 2 && "#498cbf"};
-background-color: ${props => props.element  === 3 && "#cc2127"};
+background-color: ${props => props.element  === 3 && "#003865"};
 
 
 @media screen and (max-width:991px) {

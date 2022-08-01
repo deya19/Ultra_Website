@@ -7,7 +7,7 @@ import {ProfileSkillsSection ,Profile1,ProfileTitle,ProfileTilteSpan,ProfileList
 
 
 
-function Profile() {
+function Profile({resumeRef}) {
 
   const [Informations , setInformation] = useState([]);
   const [Levels,setLevels] = useState([]);
@@ -45,7 +45,7 @@ function Profile() {
 
   
   return (
-   <ProfileSkillsSection>
+   <ProfileSkillsSection ref={resumeRef} >
     <div className="container">
         <Profile1>
             <ProfileTitle><ProfileTilteSpan>My</ProfileTilteSpan> Profile</ProfileTitle>
